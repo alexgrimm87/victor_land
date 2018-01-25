@@ -1,0 +1,132 @@
+@media screen and (max-width: 1366px) {
+  .block-4 .mbox .items .item .top img {
+    height: 75%; } }
+
+@media screen and (max-width: 1280px) {
+  #mapInit {
+    width: 130%;
+    margin-right: -800px; }
+  .block-8 .mbox .map .plashka {
+    left: 45px; } }
+
+@media screen and (max-width: 992px) {
+  #mapInit {
+    width: 100%;
+    height: 700px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: -200px; }
+  .block-8 .mbox .map .plashka {
+    top: 15px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    padding: 25px 30px 25px 30px; }
+    .block-8 .mbox .map .plashka h3 {
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center; }
+      .block-8 .mbox .map .plashka h3 span {
+        padding-bottom: 15px;
+        font-size: 25px; }
+  .block-9 {
+    padding: 50px 0px; }
+    .block-9 .content {
+      padding-top: 100px; }
+      .block-9 .content .row {
+        padding-bottom: 100px; }
+        .block-9 .content .row .items {
+          padding-top: 0px; }
+          .block-9 .content .row .items .item {
+            width: 50%;
+            padding-top: 50px; }
+        .block-9 .content .row .bottom {
+          padding-top: 50px; }
+          .block-9 .content .row .bottom p {
+            width: 90%; } }
+
+@media screen and (max-width: 767px) {
+  .block-8 .mbox .map .plashka {
+    width: 90%; }
+  .block-4 {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .block-4 .title {
+      padding-bottom: 0; }
+    .block-4 .mbox .items_decktop {
+      display: none; }
+    .block-4 .mbox .items_mobile {
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .block-4 .mbox .items_mobile .item {
+        width: 100%;
+        padding-top: 50px; }
+        .block-4 .mbox .items_mobile .item .top {
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -moz-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+        .block-4 .mbox .items_mobile .item .text {
+          padding-top: 50px; }
+          .block-4 .mbox .items_mobile .item .text .head-text {
+            text-align: center; }
+            .block-4 .mbox .items_mobile .item .text .head-text span {
+              line-height: 1.5em;
+              font-size: 20px; }
+          .block-4 .mbox .items_mobile .item .text .main-text p {
+            font-size: 16px; } }
+
+@media screen and (max-width: 666px) {
+  #mapInit {
+    height: 600px;
+    margin-bottom: -200px; }
+  .mbox {
+    max-width: 1460px;
+    padding: 0 20px; }
+  .block-8 .mbox .map .plashka {
+    padding: 20px; }
+    .block-8 .mbox .map .plashka h3 {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center; }
+      .block-8 .mbox .map .plashka h3 span {
+        padding-bottom: 15px;
+        font-size: 25px; }
+  .block-9 .content {
+    padding-top: 60px; }
+    .block-9 .content .row {
+      padding-bottom: 60px; }
+      .block-9 .content .row .items {
+        padding-top: 15px; }
+        .block-9 .content .row .items .item .img {
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -moz-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+          .block-9 .content .row .items .item .img img {
+            width: 75%; }
+  .block-4 .mbox .items .item .top img {
+    height: 50%; }
+  .block-4 .mbox .items .item .text .head-text span {
+    font-weight: 18px; }
+  .block-4 .mbox .items .item .text .main-text p {
+    font-weight: 400; } }
+
+@media screen and (max-width: 479px) {
+  .block-9 .content .row .items .item {
+    width: 100%;
+    padding-top: 30px; }
+  .block-9 .content .row .bottom p {
+    font-size: 16px; } }

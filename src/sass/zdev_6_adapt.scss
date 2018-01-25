@@ -1,0 +1,226 @@
+@media screen and (max-width:1366px) {
+  .block-7 .wrapper .form-wrap form input {
+    height: 55px;
+  }
+}
+@media screen and (max-width:1280px) {
+  .header .wrapper .nav-menu li a, .footer .wrapper .nav-menu li a {
+    font-size: 12px;
+  }
+  .header, .footer {
+    .wrapper .nav-menu {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media screen and (max-width:1024px) {
+  .block-7 .wrapper {
+    .form-wrap form {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      input {
+        margin-bottom: 15px;
+        width: 300px;
+        height: 65px;
+      }
+      button {
+        width: 300px;
+        height: 65px;
+      }
+      textarea {
+        width: 300px;
+        margin-bottom: 15px;
+      }
+    }
+    .heading {
+      h2 {
+        margin-bottom: 60px;
+      }
+      &:after {
+        top: 30%;
+      }
+    }
+  }
+
+  .header, .footer {
+    .wrapper {
+      .nav-menu {
+        display: none;
+      }
+      .buter-button {
+        display: block;
+      }
+      .nav-menu-mobile {
+        width: 100%;
+        padding: 20px 0;
+        position: absolute;
+        z-index: 10;
+        .nav-menu {
+          display: flex;
+          width: 100%;
+          li {
+            width: 100%;
+            a {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:666px) {
+  .header, .footer {
+    .wrapper .nav-menu-mobile {
+      top: 0%;
+      bottom: auto;
+      padding-top: 60px;
+      z-index: 9999;
+      .nav-menu li {
+        width: 100%;
+        margin-bottom: 30px;
+        a {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .header, .footer {
+    .wrapper .right-part-menu {
+      max-width: 163px;
+      display: flex;
+      .telephone-number {
+        text-align: center;
+        padding-top: 5px;
+        padding-right: 15px;
+        .desktop-tel {
+          display: none;
+        }
+        &:before {
+          display: none;
+        }
+        .mobile-tel {
+          display: block;
+          width: 38px;
+          height: 38px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-55%);
+          left: -40px;
+          z-index: 2;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      .language-choise {
+        a {
+          line-height: 35px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:479px) {
+  .header, .footer {
+    .wrapper {
+      flex-wrap: wrap;
+      padding: 10px 10px;
+      justify-content: space-around;
+      .logo-part {
+        top: -5px;
+        width: calc(100% / 3);
+        text-align: center;
+        a {
+          svg {
+            width: 100px;
+          }
+        }
+      }
+      .right-part-menu {
+        width: calc(100% / 3 - 20px);
+        .telephone-number {
+          padding: 0;
+          .mobile-tel {
+            width: 38px;
+            left: -20px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .language-choise {
+          display: none;
+        }
+      }
+      .nav-menu-mobile {
+        bottom: -90px;
+        .language-choise {
+          display: flex;
+        }
+      }
+    }
+  }
+  .footer .wrapper {
+    padding: 25px 10px;
+    display: none;
+  }
+  .block-7 .wrapper {
+    padding: 100px 15px 150px;
+    .heading {
+      font-size: 26px;
+    }
+  }
+}
+@media screen and (max-height:414px) {
+  .header, .footer {
+    .wrapper {
+      flex-wrap: wrap;
+      padding: 10px 10px;
+      justify-content: space-around;
+      .logo-part {
+        top: -5px;
+        width: calc(100% / 3);
+        text-align: center;
+        a {
+          svg {
+            width: 100px;
+          }
+        }
+      }
+      .right-part-menu {
+        width: calc(100% / 3 - 20px);
+        .telephone-number {
+          padding: 0;
+          .mobile-tel {
+            width: 32px;
+            height: 32px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .language-choise {
+          display: none;
+        }
+
+      }
+      .nav-menu-mobile {
+        bottom: -90px;
+        .language-choise {
+          display: flex;
+        }
+        .nav-menu li {
+          width: calc(100% / 2);
+        }
+      }
+    }
+  }
+  .footer .wrapper {
+    padding: 25px 10px;
+    display: none;
+  }
+}

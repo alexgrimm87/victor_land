@@ -1,0 +1,275 @@
+#mapInit {
+  width: 100%;
+  height: 550px;
+  margin-bottom: -25px; }
+
+.block-8 .gm-style-cc {
+  display: none; }
+
+.block-8 .mbox {
+  max-width: none;
+  padding: 0; }
+  .block-8 .mbox .map {
+    position: relative;
+    overflow: hidden; }
+    .block-8 .mbox .map .plashka {
+      position: absolute;
+      top: 50%;
+      left: 100px;
+      -webkit-transform: translate(0%, -50%);
+      -moz-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+      -o-transform: translate(0%, -50%);
+      transform: translate(0%, -50%);
+      max-width: 500px;
+      opacity: 0.9;
+      background-color: #313131;
+      border: 5px solid #4b4b4b;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      padding: 50px 50px 50px 50px;
+      text-align: center; }
+      .block-8 .mbox .map .plashka h3 {
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+        margin: 0;
+        text-align: justify; }
+        .block-8 .mbox .map .plashka h3 span {
+          display: block;
+          padding-bottom: 25px;
+          color: #eeeeef;
+          font-size: 25px;
+          font-weight: 700; }
+      .block-8 .mbox .map .plashka a {
+        padding-top: 20px;
+        display: block;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none; }
+
+.block-4 {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 125px;
+  background: url(../images/block-4-bg.jpg) top center; }
+  .block-4 .title {
+    padding-bottom: 35px; }
+    .block-4 .title h2 {
+      color: white; }
+      .block-4 .title h2:after {
+        background-color: #f0595c; }
+  .block-4 .mbox {
+    max-width: 1650px; }
+    .block-4 .mbox .items_decktop .item_couple .top {
+      height: 145px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+      -moz-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end; }
+    .block-4 .mbox .items_decktop .item_couple .text {
+      padding-top: 45px; }
+      .block-4 .mbox .items_decktop .item_couple .text .head-text span {
+        color: #f0595c;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .block-4 .mbox .items_decktop .item_couple .text .main-text {
+        padding-top: 5px; }
+        .block-4 .mbox .items_decktop .item_couple .text .main-text p {
+          margin: 0;
+          font-size: 18px;
+          font-weight: 400;
+          color: white;
+          padding-top: 40px;
+          text-align: justify; }
+    .block-4 .mbox .items_decktop .item_couple .row {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .block-4 .mbox .items_decktop .item_couple .row .item {
+        width: 45%; }
+    .block-4 .mbox .items_mobile {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      display: none; }
+      .block-4 .mbox .items_mobile .item {
+        width: 45%; }
+        .block-4 .mbox .items_mobile .item .top {
+          height: 145px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: end;
+          -webkit-align-items: flex-end;
+          -moz-box-align: end;
+          -ms-flex-align: end;
+          align-items: flex-end; }
+        .block-4 .mbox .items_mobile .item .text {
+          padding-top: 100px; }
+          .block-4 .mbox .items_mobile .item .text .head-text span {
+            color: #f0595c;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase; }
+          .block-4 .mbox .items_mobile .item .text .main-text {
+            padding-top: 10px; }
+            .block-4 .mbox .items_mobile .item .text .main-text p {
+              margin: 0;
+              font-size: 18px;
+              font-weight: 400;
+              color: white;
+              padding-top: 40px;
+              text-align: justify; }
+    .block-4 .mbox .items_mobile_eng {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex; }
+
+.block-9 {
+  background-color: whitesmoke;
+  padding: 100px 0 100px 0; }
+  .block-9 .title h2:after {
+    background-color: #f0595c; }
+  .block-9 .content .row {
+    padding-bottom: 60px;
+    padding-top: 20px; }
+    .block-9 .content .row .hat {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: center; }
+      .block-9 .content .row .hat span {
+        color: #f0595c;
+        font-size: 30px;
+        font-weight: 700; }
+    .block-9 .content .row .items {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+      .block-9 .content .row .items .item {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0 3%;
+        width: 25%; }
+        .block-9 .content .row .items .item .img {
+          height: 132px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -moz-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+        .block-9 .content .row .items .item p {
+          margin: 0;
+          text-align: center;
+          color: #8f8f8f;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px; }
+    .block-9 .content .row .bottom {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .block-9 .content .row .bottom span {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center; }
+      .block-9 .content .row .bottom p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0;
+        padding-top: 35px;
+        width: 60%;
+        text-align: center;
+        text-align: justify; }

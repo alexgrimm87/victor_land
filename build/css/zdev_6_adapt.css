@@ -1,0 +1,200 @@
+@media screen and (max-width: 1366px) {
+  .block-7 .wrapper .form-wrap form input {
+    height: 55px; } }
+
+@media screen and (max-width: 1280px) {
+  .header .wrapper .nav-menu li a, .footer .wrapper .nav-menu li a {
+    font-size: 12px; }
+  .header .wrapper .nav-menu, .footer .wrapper .nav-menu {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 1024px) {
+  .block-7 .wrapper .form-wrap form {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .block-7 .wrapper .form-wrap form input {
+      margin-bottom: 15px;
+      width: 300px;
+      height: 65px; }
+    .block-7 .wrapper .form-wrap form button {
+      width: 300px;
+      height: 65px; }
+    .block-7 .wrapper .form-wrap form textarea {
+      width: 300px;
+      margin-bottom: 15px; }
+  .block-7 .wrapper .heading h2 {
+    margin-bottom: 60px; }
+  .block-7 .wrapper .heading:after {
+    top: 30%; }
+  .header .wrapper .nav-menu, .footer .wrapper .nav-menu {
+    display: none; }
+  .header .wrapper .buter-button, .footer .wrapper .buter-button {
+    display: block; }
+  .header .wrapper .nav-menu-mobile, .footer .wrapper .nav-menu-mobile {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 10; }
+    .header .wrapper .nav-menu-mobile .nav-menu, .footer .wrapper .nav-menu-mobile .nav-menu {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%; }
+      .header .wrapper .nav-menu-mobile .nav-menu li, .footer .wrapper .nav-menu-mobile .nav-menu li {
+        width: 100%; }
+        .header .wrapper .nav-menu-mobile .nav-menu li a, .footer .wrapper .nav-menu-mobile .nav-menu li a {
+          font-size: 25px; } }
+
+@media screen and (max-width: 666px) {
+  .header .wrapper .nav-menu-mobile, .footer .wrapper .nav-menu-mobile {
+    top: 0%;
+    bottom: auto;
+    padding-top: 60px;
+    z-index: 9999; }
+    .header .wrapper .nav-menu-mobile .nav-menu li, .footer .wrapper .nav-menu-mobile .nav-menu li {
+      width: 100%;
+      margin-bottom: 30px; }
+      .header .wrapper .nav-menu-mobile .nav-menu li a, .footer .wrapper .nav-menu-mobile .nav-menu li a {
+        font-size: 30px; }
+  .header .wrapper .right-part-menu, .footer .wrapper .right-part-menu {
+    max-width: 163px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .header .wrapper .right-part-menu .telephone-number, .footer .wrapper .right-part-menu .telephone-number {
+      text-align: center;
+      padding-top: 5px;
+      padding-right: 15px; }
+      .header .wrapper .right-part-menu .telephone-number .desktop-tel, .footer .wrapper .right-part-menu .telephone-number .desktop-tel {
+        display: none; }
+      .header .wrapper .right-part-menu .telephone-number:before, .footer .wrapper .right-part-menu .telephone-number:before {
+        display: none; }
+      .header .wrapper .right-part-menu .telephone-number .mobile-tel, .footer .wrapper .right-part-menu .telephone-number .mobile-tel {
+        display: block;
+        width: 38px;
+        height: 38px;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-55%);
+        -moz-transform: translateY(-55%);
+        -ms-transform: translateY(-55%);
+        -o-transform: translateY(-55%);
+        transform: translateY(-55%);
+        left: -40px;
+        z-index: 2; }
+        .header .wrapper .right-part-menu .telephone-number .mobile-tel img, .footer .wrapper .right-part-menu .telephone-number .mobile-tel img {
+          width: 100%;
+          height: 100%; }
+    .header .wrapper .right-part-menu .language-choise a, .footer .wrapper .right-part-menu .language-choise a {
+      line-height: 35px; } }
+
+@media screen and (max-width: 479px) {
+  .header .wrapper, .footer .wrapper {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .header .wrapper .logo-part, .footer .wrapper .logo-part {
+      top: -5px;
+      width: -webkit-calc(100% / 3);
+      width: -moz-calc(100% / 3);
+      width: calc(100% / 3);
+      text-align: center; }
+      .header .wrapper .logo-part a svg, .footer .wrapper .logo-part a svg {
+        width: 100px; }
+    .header .wrapper .right-part-menu, .footer .wrapper .right-part-menu {
+      width: -webkit-calc(100% / 3 - 20px);
+      width: -moz-calc(100% / 3 - 20px);
+      width: calc(100% / 3 - 20px); }
+      .header .wrapper .right-part-menu .telephone-number, .footer .wrapper .right-part-menu .telephone-number {
+        padding: 0; }
+        .header .wrapper .right-part-menu .telephone-number .mobile-tel, .footer .wrapper .right-part-menu .telephone-number .mobile-tel {
+          width: 38px;
+          left: -20px; }
+          .header .wrapper .right-part-menu .telephone-number .mobile-tel img, .footer .wrapper .right-part-menu .telephone-number .mobile-tel img {
+            width: 100%; }
+      .header .wrapper .right-part-menu .language-choise, .footer .wrapper .right-part-menu .language-choise {
+        display: none; }
+    .header .wrapper .nav-menu-mobile, .footer .wrapper .nav-menu-mobile {
+      bottom: -90px; }
+      .header .wrapper .nav-menu-mobile .language-choise, .footer .wrapper .nav-menu-mobile .language-choise {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex; }
+  .footer .wrapper {
+    padding: 25px 10px;
+    display: none; }
+  .block-7 .wrapper {
+    padding: 100px 15px 150px; }
+    .block-7 .wrapper .heading {
+      font-size: 26px; } }
+
+@media screen and (max-height: 414px) {
+  .header .wrapper, .footer .wrapper {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .header .wrapper .logo-part, .footer .wrapper .logo-part {
+      top: -5px;
+      width: -webkit-calc(100% / 3);
+      width: -moz-calc(100% / 3);
+      width: calc(100% / 3);
+      text-align: center; }
+      .header .wrapper .logo-part a svg, .footer .wrapper .logo-part a svg {
+        width: 100px; }
+    .header .wrapper .right-part-menu, .footer .wrapper .right-part-menu {
+      width: -webkit-calc(100% / 3 - 20px);
+      width: -moz-calc(100% / 3 - 20px);
+      width: calc(100% / 3 - 20px); }
+      .header .wrapper .right-part-menu .telephone-number, .footer .wrapper .right-part-menu .telephone-number {
+        padding: 0; }
+        .header .wrapper .right-part-menu .telephone-number .mobile-tel, .footer .wrapper .right-part-menu .telephone-number .mobile-tel {
+          width: 32px;
+          height: 32px; }
+          .header .wrapper .right-part-menu .telephone-number .mobile-tel img, .footer .wrapper .right-part-menu .telephone-number .mobile-tel img {
+            width: 100%; }
+      .header .wrapper .right-part-menu .language-choise, .footer .wrapper .right-part-menu .language-choise {
+        display: none; }
+    .header .wrapper .nav-menu-mobile, .footer .wrapper .nav-menu-mobile {
+      bottom: -90px; }
+      .header .wrapper .nav-menu-mobile .language-choise, .footer .wrapper .nav-menu-mobile .language-choise {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex; }
+      .header .wrapper .nav-menu-mobile .nav-menu li, .footer .wrapper .nav-menu-mobile .nav-menu li {
+        width: -webkit-calc(100% / 2);
+        width: -moz-calc(100% / 2);
+        width: calc(100% / 2); }
+  .footer .wrapper {
+    padding: 25px 10px;
+    display: none; } }

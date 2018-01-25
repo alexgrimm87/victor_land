@@ -1,0 +1,266 @@
+/* Begin Elements */
+.fancybox-overlay {
+  background: rgba(255, 255, 255, 0.8); }
+
+.call-popup {
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px; }
+  .call-popup #call_success {
+    padding-top: 112px;
+    color: #9a9a9a; }
+    .call-popup #call_success .call-title {
+      position: relative;
+      padding-bottom: 42px;
+      margin-bottom: 37px;
+      font-size: 50px;
+      line-height: 50px;
+      font-weight: 700; }
+      .call-popup #call_success .call-title:after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0;
+        background: #eb4e52; }
+    .call-popup #call_success .call-subtitle {
+      font-size: 24px;
+      font-weight: 400; }
+  .call-popup .fancybox-close {
+    top: 40px;
+    right: 51px;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    background: none; }
+    .call-popup .fancybox-close:before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      width: 30px;
+      height: 1px;
+      background-color: currentColor;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+    .call-popup .fancybox-close:after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      width: 30px;
+      height: 1px;
+      background-color: currentColor;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg); }
+
+.title h2 {
+  position: relative;
+  padding-bottom: 21px;
+  text-align: center;
+  margin: 0;
+  font-family: ProximaNova;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px; }
+  .title h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75px;
+    height: 3px;
+    background: white; }
+
+.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fefefe;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 80px;
+  text-transform: uppercase;
+  max-width: 350px;
+  width: 100%;
+  background: #f0595c;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  border-radius: 38px;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease; }
+  .button:hover {
+    background: #e84448; }
+
+/* End Elements */
+.top-block {
+  padding: 185px 0 190px 0;
+  background: #383838 url("../images/top-block-bg.jpg") no-repeat;
+  background-position-y: -135px; }
+  .top-block h1 {
+    margin: 0 0 76px 0;
+    color: #f0595c;
+    font-family: MyriadPro;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0.7px; }
+  .top-block ul {
+    margin: 0 0 95px 0;
+    padding: 0;
+    list-style: none; }
+    .top-block ul li {
+      position: relative;
+      padding-left: 67px;
+      text-align: justify;
+      color: white;
+      font-family: ProximaNova;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px; }
+      .top-block ul li:first-child {
+        margin-bottom: 35px; }
+      .top-block ul li:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 37px;
+        height: 37px;
+        background: transparent;
+        border: 13px solid #ff4e52;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+
+.about {
+  padding: 95px 0 187px 0;
+  color: white;
+  background: #ff4e52 url("../images/about-bg.png") no-repeat center; }
+  .about p {
+    margin: 0;
+    text-align: justify;
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px; }
+    .about p:nth-of-type(1) {
+      margin: 79px 0 44px 0;
+      line-height: 36px; }
+    .about p:nth-of-type(2) {
+      margin-bottom: 44px; }
+
+.products {
+  padding: 95px 0 75px 0; }
+  .products h2 {
+    margin-bottom: 79px;
+    color: #4f4f4f; }
+    .products h2:after {
+      background: #f0595c; }
+  .products .product-catalog .product-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    -webkit-box-shadow: 0 0 21.3px 3.8px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0 0 21.3px 3.8px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0 21.3px 3.8px rgba(0, 0, 0, 0.07);
+    margin-bottom: 20px; }
+    .products .product-catalog .product-item:last-child {
+      margin-bottom: 0; }
+    .products .product-catalog .product-item .product-pic-wrap {
+      padding: 80px 72px; }
+      .products .product-catalog .product-item .product-pic-wrap .product-pic {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        margin: 0 auto; }
+        .products .product-catalog .product-item .product-pic-wrap .product-pic img {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: 260px;
+          height: 260px;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          overflow: hidden; }
+    .products .product-catalog .product-item .product-info-wrap {
+      max-width: 985px; }
+      .products .product-catalog .product-item .product-info-wrap .product-info {
+        color: #4f4f4f;
+        font-family: ProximaNova;
+        max-width: 900px;
+        padding: 0 30px; }
+        .products .product-catalog .product-item .product-info-wrap .product-info h3 {
+          margin: 70px 0 35px 0;
+          font-size: 24px;
+          line-height: 41px;
+          font-weight: 400; }
+          .products .product-catalog .product-item .product-info-wrap .product-info h3 span {
+            color: #f0595c;
+            font-weight: 400; }
+        .products .product-catalog .product-item .product-info-wrap .product-info p {
+          margin: 0;
+          text-align: justify;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px; }
+          .products .product-catalog .product-item .product-info-wrap .product-info p:nth-of-type(1) {
+            margin-bottom: 30px; }
+    .products .product-catalog .product-item:nth-child(2) > .product-info-wrap h3 {
+      margin-top: 30px; }
+    .products .product-catalog .product-item:nth-child(2) > .product-pic-wrap {
+      padding: 41px 72px; }
+    .products .product-catalog .product-item:nth-child(4) > .product-info-wrap h3 {
+      margin-top: 48px; }
+    .products .product-catalog .product-item:nth-child(4) > .product-pic-wrap {
+      padding: 59px 72px; }
+    .products .product-catalog .product-item:nth-child(5) {
+      padding-bottom: 65px; }
+    .products .product-catalog .product-item:nth-child(5) > .product-info-wrap h3 {
+      margin-top: 48px; }
+    .products .product-catalog .product-item:nth-child(5) > .product-pic-wrap {
+      padding: 59px 72px; }
+
+.confidential {
+  padding: 95px 0 117px 0;
+  text-align: center;
+  color: white;
+  background: #216eb7;
+  background-image: -webkit-radial-gradient(circle 302px at center, #377dbf 0%, #216eb7 100%);
+  background-image: -moz-radial-gradient(circle 302px at center, #377dbf 0%, #216eb7 100%);
+  background-image: -o-radial-gradient(circle 302px at center, #377dbf 0%, #216eb7 100%);
+  background-image: radial-gradient(circle 302px at center, #377dbf 0%, #216eb7 100%); }
+  .confidential h3 {
+    margin: 89px 0 38px 0;
+    font-family: ProximaNova;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 400; }
+  .confidential p {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: ProximaNova;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 400; }
